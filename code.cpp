@@ -2,7 +2,7 @@
 using namespace std;
 void menu()
 {
-    cout << "**********Menu***********"<<endl;
+    cout << endl<<"**********Menu***********"<<endl;
     cout << "1. Check Amount" << endl;
     cout << "2. Deposit Money" << endl;
     cout << "3. Withdraw Money" << endl;
@@ -18,7 +18,7 @@ int main()
         menu();
         cout<<"Choice:";
         cin>>choice;
-        // system("cls");
+        system("clear");
         switch (choice)
         {
             case 1:
