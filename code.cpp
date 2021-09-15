@@ -45,6 +45,7 @@ int main()
                 break;
 
             case 4:
+                cout<<"Thank you"<<endl<<"Have a nice day";
                 exit;
         }
     } while (choice != 4);
